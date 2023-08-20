@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="rj5Bqd" name="TestPlugin" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginFormats="buildAU,buildAUv3,buildStandalone,buildVST,buildVST3"
+              pluginCharacteristicsValue="pluginIsSynth">
   <MAINGROUP id="Ddhooh" name="TestPlugin">
     <GROUP id="{D7FDBFB6-F010-B7D1-0ED0-8AC49A81CA40}" name="Source">
       <FILE id="J0RjrC" name="PluginProcessor.cpp" compile="1" resource="0"
